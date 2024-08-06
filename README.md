@@ -2,10 +2,13 @@
 
 ## Introduction
 
-BRICS countries (Brazil, Russia, India, China, and South Africa) represent a significant portion of the global economy. However, their trade and financial interactions are often constrained by reliance on the US dollar. This dependence exposes them to volatility and western political influence. Recent efforts towards dedollarization highlight the need for a stable BRICS reserve currency that can facilitate seamless trade and economic cooperation.
+BRICS countries (Brazil, Russia, India, China, South Africa, Iran, Egypt, Ethiopia, and the United Arab Emirates) represent a significant portion of the global economy. However, their trade and financial interactions are often constrained by reliance on the US dollar. This dependence exposes them to volatility and western political influence. Recent efforts towards dedollarization highlight the need for a stable BRICS reserve currency that can facilitate seamless trade and economic cooperation.
 
 # Frontend
 
+Platform live at https://brc.cx
+
+### Local deployment
 npm start
 npm build
 
@@ -33,6 +36,7 @@ BRC adopts a model similar to Tether (USDT), where the digital currency is backe
 - **INR (Indian Rupee)**
 - **RUB (Russian Ruble)**
 - **ZAR (South African Rand)**
+- **AED (United Arab Emirates Dirham)**
 
 Each currency constitutes 20% of the reserve.
 
@@ -44,7 +48,7 @@ Each currency constitutes 20% of the reserve.
 
 ## Exchange Rate and Valuation
 
-The exchange rate will be determined using a dynamic model based on the current value of each currency. This allows for a transparent and market-driven valuation process, reducing reliance on individual nations' economies.
+The exchange rate will be determined using the value of collateral divided by the token supply. This allows for a transparent and market-driven valuation process, reducing reliance on individual nations' economies. Yield from short term treasury bonds will contribute to appreciation in value relative to currency exposure. 
 
 ## Dynamic Weightings and Stability
 
