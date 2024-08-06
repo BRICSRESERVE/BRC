@@ -38,7 +38,7 @@ BRC adopts a model similar to Tether (USDT), where the digital currency is backe
 - **ZAR (South African Rand)**
 - **AED (United Arab Emirates Dirham)**
 
-Each currency constitutes 20% of the reserve.
+Each currency constitutes 16.6% of the reserve.
 
 ## Minting and Redemption
 
