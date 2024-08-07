@@ -1,0 +1,19 @@
+.modal-container {
+    text-align: center;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+@media (max-width: 768px) {
+    .table-container {
+        max-width: 300px;
+    }
+}

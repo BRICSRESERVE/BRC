@@ -1,0 +1,49 @@
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  0% { border-right-color: black }
+  50% { border-right-color: transparent }
+  100% { border-right-color: black }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.text-container {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.hero-container {
+    width: 100%;
+    text-align: center;
+}
+
+.hero-image {
+  width: 70%;
+  background: url('../assets/hero.png') no-repeat center center;
+  background-size: contain;
+}
+
+
+@media (max-width: 768px) {
+  .text-container {
+    min-height: 100px;
+    margin-bottom: 0px;
+    font-size: 25px;
+  }
+  
+}

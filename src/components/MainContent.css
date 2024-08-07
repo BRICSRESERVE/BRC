@@ -1,0 +1,85 @@
+/* components/MainContent.css */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.section {
+    padding: 60px 120px;
+    background-color: #FFFFFFAA;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.image-container svg {
+    max-height: 300px;
+    width: auto;
+    max-width: 100%;
+}
+
+.partner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Adjust the gap value as needed */
+    margin-top: 50px;
+}
+
+.partner-buttons button {
+    padding: 10px 20px; /* Adjust the padding as needed */
+}
+  
+#video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+.cross-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.cross-container:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.cross-icon {
+    width: 150px;
+    height: auto;
+    margin: 70px 20px;
+}
+
+.cross-container:nth-child(even) .cross-icon {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.cross-container:nth-child(odd) .cross-icon {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 20px;
+    }
+    .cross-icon {
+        display: none;
+    }
+}
