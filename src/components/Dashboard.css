@@ -12,6 +12,18 @@ table {
     border-collapse: collapse;
 }
 
+.input-currency-right {
+    position: relative;
+    text-align:end;
+}
+
+.input-currency-right:before {
+    position: absolute;
+    top: 0;
+    content:"BRC";
+    right: 30px;
+}
+
 @media (max-width: 768px) {
     .table-container {
         max-width: 300px;

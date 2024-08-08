@@ -154,4 +154,8 @@
         align-items: center !important;
         justify-content: center !important;
     }
+
+    .react-tabs__tab-list {
+        font-size: 0.8em;
+    }
 }

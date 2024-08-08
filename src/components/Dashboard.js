@@ -258,13 +258,15 @@ const Dashboard = () => {
         <div className='modal-container'>
           <h3>Redeem BRC</h3>
           <div>
-            <input
-              type="number"
-              placeholder="Enter BRC Amount"
-              value={amount}
-              step=".000001"
-              onChange={(e) => setAmount(e.target.value)}
-            /> BRC
+            <span class="input-currency-right">
+              <input
+                type="number"
+                placeholder="Enter BRC Amount"
+                value={amount}
+                step=".000001"
+                onChange={(e) => setAmount(e.target.value)}
+              />
+            </span>
           </div>
           <div>
             Withdrawal Currency: <select value={currency} onChange={handleCurrencyChange}>
@@ -415,16 +417,17 @@ const Dashboard = () => {
         <div className="modal-container">
           <h3>Swap BRC For Digital Assets</h3>
           <div>
-            <input
-              type="number"
-              placeholder="Enter BRC Amount"
-              value={amount}
-              step=".000001"
-              onChange={(e) => setAmount(e.target.value)}
-            /> BRC
+            <span class="input-currency-right">
+              <input
+                type="number"
+                placeholder="Enter BRC Amount"
+                value={amount}
+                step=".000001"
+                onChange={(e) => setAmount(e.target.value)}
+              />
+            </span>
           </div>
           <div>
-            Swap BRC for: 
             <select value={currency} onChange={handleCurrencyChange}>
               <option value="">Select Digital Asset</option>
               <option key="BTC" value="BTC">BTC</option>
@@ -565,21 +568,27 @@ const Dashboard = () => {
         <Modal isOpen={sendModal} onRequestClose={() => setSendModal(false)}>
           <div className='modal-container'>
             <h3>Send BRC</h3>
-            <input
-              type="text"
-              placeholder="Recipient Address"
-              value={recipientAddress}
-              onChange={(e) => setRecipientAddress(e.target.value)}
-            />
-            <input
-              type="number"
-              placeholder="Amount"
-              value={sendAmount}
-              step=".000001"
-              onChange={(e) => setSendAmount(e.target.value)}
-            />
-            <button onClick={handleSendBRC}>Send</button>
-            <button onClick={() => setSendModal(false)}>Cancel</button>
+            <div>
+              <input
+                type="text"
+                placeholder="Recipient Address"
+                value={recipientAddress}
+                onChange={(e) => setRecipientAddress(e.target.value)}
+              />
+            </div>
+            <div>
+              <input
+                type="number"
+                placeholder="Amount"
+                value={sendAmount}
+                step=".000001"
+                onChange={(e) => setSendAmount(e.target.value)}
+              />
+            </div>
+            <div>
+              <button onClick={handleSendBRC}>Send</button>
+              <button onClick={() => setSendModal(false)}>Cancel</button>
+            </div>
           </div>
         </Modal>
       )}
