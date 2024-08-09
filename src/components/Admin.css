@@ -1,0 +1,93 @@
+/* Admin.css */
+
+.admin-panel {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.admin-panel h1 {
+  color: #333;
+  text-align: center;
+}
+
+.admin-panel h2 {
+  color: #444;
+  margin-top: 30px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.admin-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.admin-table .processed {
+  background-color: #e6ffe6;
+}
+
+.admin-table .not-processed {
+  background-color: #ffe6e6;
+}
+
+.admin-table input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.button-edit, .button-delete, .button-process {
+  font-size: 0.6em;
+  padding: 6px 6px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.login-section,
+.logout-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-section button,
+.logout-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.small-column {
+  font-size: 0.7em;
+}
