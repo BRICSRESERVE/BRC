@@ -255,7 +255,7 @@ const Dashboard = () => {
             <span class="input-currency-right">
               <input
                 type="number"
-                placeholder="Enter BRC Amount"
+                placeholder="BRC Amount"
                 value={amount}
                 step=".000001"
                 onChange={(e) => setAmount(e.target.value)}
@@ -414,7 +414,7 @@ const Dashboard = () => {
             <span class="input-currency-right">
               <input
                 type="number"
-                placeholder="Enter BRC Amount"
+                placeholder="BRC Amount"
                 value={amount}
                 step=".000001"
                 onChange={(e) => setAmount(e.target.value)}

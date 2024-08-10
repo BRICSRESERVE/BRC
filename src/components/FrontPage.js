@@ -15,10 +15,7 @@ const FrontPage = () => {
             loop: true,
           }}
           onInit={(typewriter) => {
-            typewriter.typeString('<span class="bold">BRC</span> The cross border payment solution')
-            .pauseFor(3000)
-            .deleteAll()
-            typewriter.typeString('<span class="bold">BRC</span> Reducing reliance on the USD')
+            typewriter.typeString('<span class="bold">BRC</span> Stablecoin for the rest of the world')
             .pauseFor(3000)
             .deleteAll()
             typewriter.typeString('<span class="bold">BRC</span> Shared digital asset available globally')

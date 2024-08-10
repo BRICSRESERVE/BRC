@@ -22,7 +22,7 @@ const Footer = () => {
             <h4>Company</h4>
             <ul>
               <li><Link to="/#what-is-brc" smooth={true} duration={500}>What Is BRC?</Link></li>
-              <li><Link to="/#cross-border-solution" smooth={true} duration={500}>Cross Border Solution</Link></li>
+              <li><Link to="/cross-border-solution" smooth={true} duration={500}>Cross Border Solution</Link></li>
               <li><Link to="/#transparency" smooth={true} duration={500}>Transparency</Link></li>
               <li><Link to="/#partners" smooth={true} duration={500}>Partners</Link></li>
             </ul>

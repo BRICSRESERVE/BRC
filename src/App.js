@@ -7,6 +7,7 @@ import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Dashboard from './components/Dashboard';
 import Register from './components/Register';
+import CrossBorderSolution from './components/CrossBorderSolution'
 import Admin from './components/Admin';
 import Footer from './components/Footer';
 import './App.css';
@@ -33,6 +34,7 @@ function App() {
           <Route path="/" element={<MainContent />} />
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/cross-border-solution" element={<CrossBorderSolution />} />
           <Route path="/admin" element={<Admin />} />
         </Routes>
         <Footer />

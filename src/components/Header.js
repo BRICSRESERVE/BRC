@@ -30,7 +30,6 @@ const Header = () => {
       <nav className={isOpen ? 'open' : ''}>
         <ul>
           <li><Link to="/#what-is-brc" smooth={true} duration={500} onClick={toggleMenu}>What Is BRC?</Link></li>
-          <li><Link to="/#cross-border-solution" smooth={true} duration={500} onClick={toggleMenu}>Cross Border Solution</Link></li>
           <li><Link to="/#transparency" smooth={true} duration={500} onClick={toggleMenu}>Transparency</Link></li>
           <li><a href="/BGT-Tokenomics.pdf" target="_blank">BGT</a></li>
           <li><Link to="/#partners" smooth={true} duration={500} onClick={toggleMenu}>Partners</Link></li>

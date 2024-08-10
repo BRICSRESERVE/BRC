@@ -101,9 +101,6 @@ const Transparency = () => {
         <div className="pie-container">
             <Pie data={data} options={options} />
         </div>
-        <p>BRC is fully backed by highly liquid fiat reserves from BRICS countries, held separately from operating funds at premier financial institutions. This structure ensures that BRC is always redeemable at a 1:1 ratio with the respective national currencies.</p>
-        <p>The majority of BRC reserves will eventually be held in short dated government treasuries from BRICS nations. These assets are chosen for their liquidity and stability, ensuring that BRC can maintain its value even under stressed market conditions.</p>
-        <p>BRC will continually strengthen its global banking infrastructure to facilitate the local creation and redemption of tokens. This deep connectivity to the banking system is critical for maintaining price stability, ensuring timely redemptions, and mitigating operating risks. By bridging the traditional banking system with blockchain technology, BRC aims to enhance economic cooperation and financial integration among BRICS countries.</p>
         <h4>Commitment to Transparency</h4>
         <p>Since its inception, BRC is committed to maintaining the highest standards of transparency. This includes regular disclosures of reserve holdings, audit reports, and real-time financial metrics that provide insights into the currency's supply, backing and stability.</p>
     </div>
