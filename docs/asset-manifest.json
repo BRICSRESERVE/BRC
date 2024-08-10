@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.16e06d0a.css",
-    "main.js": "/static/js/main.51a9ece0.js",
+    "main.css": "/static/css/main.a563437e.css",
+    "main.js": "/static/js/main.a5c1e2a3.js",
     "static/js/966.06984445.chunk.js": "/static/js/966.06984445.chunk.js",
     "static/js/845.1965c87f.chunk.js": "/static/js/845.1965c87f.chunk.js",
     "static/media/hero.png": "/static/media/hero.bbced9817abbb21de35c.png",
@@ -11,7 +11,6 @@
     "static/media/inter-latin-400-normal.woff": "/static/media/inter-latin-400-normal.b0c8fe9db56dd415a25a.woff",
     "static/media/inter-latin-ext-900-normal.woff2": "/static/media/inter-latin-ext-900-normal.d3e278a66256f1823534.woff2",
     "static/media/inter-latin-ext-400-normal.woff2": "/static/media/inter-latin-ext-400-normal.3d10c85fbd16969509a2.woff2",
-    "static/media/reserves.svg": "/static/media/reserves.6e7ea922c779c4d08bbbee7a6187874b.svg",
     "static/media/inter-latin-900-normal.woff2": "/static/media/inter-latin-900-normal.7d99dcfce1c907019d9d.woff2",
     "static/media/inter-latin-400-normal.woff2": "/static/media/inter-latin-400-normal.9698cc7dbf147ed363b6.woff2",
     "static/media/explainer.svg": "/static/media/explainer.ae003f52a317c369d3fc334532d189f0.svg",
@@ -49,20 +48,20 @@
     "static/media/inter-vietnamese-900-normal.woff2": "/static/media/inter-vietnamese-900-normal.30ffccb6afda69cc2d6e.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "static/media/roboto-mono-vietnamese-400-normal.woff2": "/static/media/roboto-mono-vietnamese-400-normal.20839d62f2fa7671dbcb.woff2",
+    "index.html": "/index.html",
     "static/media/china.svg": "/static/media/china.82bc119c2e2a8c288269b81788d5d1b7.svg",
     "static/media/india.svg": "/static/media/india.b4edf60f81d02fff02e4826aebedca3f.svg",
     "static/media/usa.svg": "/static/media/usa.2cd38b29c6d401d318403df9e01abc9d.svg",
-    "index.html": "/index.html",
     "static/media/southafrica.svg": "/static/media/southafrica.8caf014d20850c179defe4520030adde.svg",
     "static/media/uae.svg": "/static/media/uae.0b91068c90f917a87feb467a341fe616.svg",
     "static/media/russia.svg": "/static/media/russia.b41328698709cf180d8d19cd65d03050.svg",
-    "main.16e06d0a.css.map": "/static/css/main.16e06d0a.css.map",
-    "main.51a9ece0.js.map": "/static/js/main.51a9ece0.js.map",
+    "main.a563437e.css.map": "/static/css/main.a563437e.css.map",
+    "main.a5c1e2a3.js.map": "/static/js/main.a5c1e2a3.js.map",
     "966.06984445.chunk.js.map": "/static/js/966.06984445.chunk.js.map",
     "845.1965c87f.chunk.js.map": "/static/js/845.1965c87f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16e06d0a.css",
-    "static/js/main.51a9ece0.js"
+    "static/css/main.a563437e.css",
+    "static/js/main.a5c1e2a3.js"
   ]
 }
