@@ -1,0 +1,56 @@
+/* Basic container styling */
+.total-supply-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+  
+.total-supply-container div {
+    flex: 1;
+}
+
+.total-supply {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.total-supply-text {
+    font-size: 1.2em;
+}
+
+.total-supply-buttons {
+    width: 100%;
+    margin: 50px auto 20px auto;
+    text-align: center;
+}
+
+.total-supply-buttons button {
+    font-size: 0.8em;
+    padding: 10px 20px;
+}
+
+.report-date {
+    color: #555;
+    font-style: italic;
+    margin-right: 20px;
+}
+
+.report-link {
+    color: #3985BC;
+    text-decoration: underline;
+}
+
+.pie-container {
+    max-height: 300px;
+    width: 300px;
+    margin: 10px auto;
+}
+  
+/* Mobile styling: stack the boxes on top of each other */
+@media (max-width: 768px) {
+    .total-supply-container {
+        flex-direction: column;
+    }
+}

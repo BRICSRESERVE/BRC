@@ -17,9 +17,6 @@ const Footer = () => {
           <div className="footer-logo-text">BRICS RESERVE CURRENCY</div>
           <div className="footer-logo-tagline">🌐 Global Shared Digital Asset</div>
         </div>
-        <div className="footer-column">
-          &nbsp;
-        </div>
         <div className="footer-links">
           <div className="footer-column">
             <h4>Company</h4>
@@ -33,10 +30,10 @@ const Footer = () => {
           <div className="footer-column">
             <h4>Resources</h4>
             <ul>
-              <li><a href="mailto:bricsreservecurrency@proton.me">Contact Us</a></li>
               <li><a href="/BRC-WhitePaper.pdf" target="_blank">Whitepaper</a></li>
               <li><a href="/BGT-Tokenomics.pdf" target="_blank">BGT Tokenomics</a></li>
               <li><a href="https://github.com/bricsreserve/brc">Github</a></li>
+              <li><a href="mailto:bricsreservecurrency@proton.me">Contact Us</a></li>
             </ul>
           </div>
         </div>

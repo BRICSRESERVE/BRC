@@ -30,6 +30,10 @@ const FrontPage = () => {
             .start();
         }}
         />
+        <div className="cta-buttons">
+          <a href="/#/dashboard"><button>LOG IN</button></a>
+          <a href="/#/register"><button className="button-alt">NEW PARTNERS</button></a>
+        </div>
       </div>  
     </div>
   );

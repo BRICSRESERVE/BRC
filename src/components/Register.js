@@ -32,6 +32,7 @@ const Register = () => {
     if (error) {
       alert("Error submitting form: " + error.message);
     } else {
+      console.log(data);
       alert("Registration submitted successfully! You can now log in with Metamask");
       window.location = "/app";
     }

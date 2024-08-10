@@ -35,7 +35,7 @@ header {
   nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 30px;
     margin-right: 50px;
   }
   
@@ -63,6 +63,12 @@ header {
     width: 25px;
     height: 3px;
     background-color: #3985BC;
+  }
+
+  @media (max-width: 1200px) {
+    nav ul {
+      gap: 10px;
+    }
   }
   
   @media (max-width: 768px) {

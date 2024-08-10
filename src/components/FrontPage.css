@@ -38,6 +38,9 @@
   background-size: contain;
 }
 
+.cta-buttons {
+  margin-top: 30px;
+}
 
 @media (max-width: 768px) {
   .text-container {
@@ -46,4 +49,8 @@
     font-size: 25px;
   }
   
+  .Typewriter {
+    min-height: 100px;
+    font-size: 0.8em;
+  }
 }

@@ -22,7 +22,7 @@ const Header = () => {
           <BRCLogo />
           <span>
               <div>BRICS Reserve Currency</div>
-              <div className="domain">brazil russia china india south africa</div>
+              <div className="domain">brazil russia india china south africa</div>
           </span>
           
         </div>
