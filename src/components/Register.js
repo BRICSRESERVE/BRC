@@ -8,13 +8,11 @@ const Register = () => {
   const [formData, setFormData] = useState({
     full_name: '',
     email: '',
-    date_of_birth: '',
     address: '',
     city: '',
     state: '',
     zip_code: '',
     country: '',
-    gov_id_number: '',
     eth_address: ''
   });
 
@@ -48,8 +46,6 @@ const Register = () => {
         <label htmlFor="email">Email:</label>
         <input type="text" id="email" name="email" value={formData.email} onChange={handleChange} required />
 
-        <input type="hidden" id="date_of_birth" name="date_of_birth" value={formData.date_of_birth} onChange={handleChange} />
-
         <label htmlFor="address">Address:</label>
         <input type="text" id="address" name="address" value={formData.address} onChange={handleChange} />
 
@@ -64,8 +60,6 @@ const Register = () => {
 
         <label htmlFor="country">Country:</label>
         <input type="text" id="country" name="country" value={formData.country} onChange={handleChange} required />
-
-        <input type="hidden" id="gov_id_number" name="gov_id_number" value={formData.gov_id_number} onChange={handleChange} />
 
         <label htmlFor="eth_address">Eth Address:</label>
         <input type="text" id="eth_address" name="eth_address" value={formData.eth_address} onChange={handleChange} placeholder="0x..." required />
