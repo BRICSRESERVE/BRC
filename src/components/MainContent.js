@@ -16,7 +16,7 @@ const MainContent = () => {
       </video>
       <FrontPage />
       <div className="section" id="what-is-brc">
-        <p>The BRICS Reserve Currency (BRC) is a digital asset designed to enhance trade and economic integration within the BRICS economic bloc. BRC leverages cutting edge financial technology to create a decentralized, transparent, and secure medium of exchange. Unlike traditional currencies, BRC operates independently of any single nation's monetary policy, promoting economic sovereignty and reducing dependency on the US dollar.</p>
+        <p>The BRICS Reserve Currency (BRC) is a digital asset designed to enhance trade and economic integration within the BRICS economic bloc. BRC leverages cutting edge financial technology to create a decentralized, transparent, and secure medium of exchange. Unlike traditional currencies, BRC operates independently of any single nation's monetary policy, promoting financial sovereignty and monetary stability.</p>
         <Calculator />  
         <h3>A Basket Of BRICS National Currencies</h3>
         <p>BRC is supported by reserves of the BRICS national currencies (BRL, CNY, INR, RUB, ZAR, AED). Authorized participants deposit local currency wire transfers to mint new BRC tokens. These funds are then converted into equally weighted amounts and invested in short-term government bonds from each BRICS nation. The exchange rate is dynamically determined based on the current value of each currency, ensuring a transparent and market-driven valuation process. Upon redemption the government bonds are liquidated and a wire payment or digital asset is sent out in the redeemers currency of choice.</p>
