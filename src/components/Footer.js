@@ -33,7 +33,7 @@ const Footer = () => {
               <li><a href="/BRC-WhitePaper.pdf" target="_blank">Whitepaper</a></li>
               <li><a href="/BGT-Tokenomics.pdf" target="_blank">BGT Tokenomics</a></li>
               <li><a href="https://github.com/bricsreserve/brc">Github</a></li>
-              <li><a href="mailto:bricsreservecurrency@proton.me">Contact Us</a></li>
+              <li><a href="mailto:support@brc.cx">Contact Us</a></li>
             </ul>
           </div>
         </div>
