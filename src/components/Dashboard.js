@@ -458,8 +458,8 @@ const Dashboard = () => {
       <h4>Wallet Address: {walletAddress}</h4>
       <h4>Balance: {parseFloat(balance).toFixed(6)} BRC</h4>
       <div className="button-container">
-        <button onClick={() => setMintModal(true)}>Mint</button>
-        <button onClick={() => setRedeemModal(true)}>Redeem</button>
+        <button disabled onClick={() => setMintModal(true)}>Mint</button>
+        <button disabled onClick={() => setRedeemModal(true)}>Redeem</button>
         <button onClick={() => setSendModal(true)}>Send BRC</button>
         <button onClick={() => setReceiveModal(true)}>Receive BRC</button>
         <button onClick={() => setSwapModal(true)}>Swap BRC</button>
