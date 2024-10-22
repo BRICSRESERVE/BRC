@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a563437e.css",
-    "main.js": "/static/js/main.ceaf8d9c.js",
+    "main.js": "/static/js/main.02e7d82a.js",
     "static/js/966.06984445.chunk.js": "/static/js/966.06984445.chunk.js",
     "static/js/845.1965c87f.chunk.js": "/static/js/845.1965c87f.chunk.js",
     "static/media/hero.png": "/static/media/hero.bbced9817abbb21de35c.png",
@@ -49,6 +49,7 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "static/media/roboto-mono-vietnamese-400-normal.woff2": "/static/media/roboto-mono-vietnamese-400-normal.20839d62f2fa7671dbcb.woff2",
     "index.html": "/index.html",
+    "static/media/euro.svg": "/static/media/euro.4f42b9eaaabb1063b1abd59c0e3120b5.svg",
     "static/media/china.svg": "/static/media/china.82bc119c2e2a8c288269b81788d5d1b7.svg",
     "static/media/india.svg": "/static/media/india.b4edf60f81d02fff02e4826aebedca3f.svg",
     "static/media/usa.svg": "/static/media/usa.2cd38b29c6d401d318403df9e01abc9d.svg",
@@ -56,12 +57,12 @@
     "static/media/uae.svg": "/static/media/uae.0b91068c90f917a87feb467a341fe616.svg",
     "static/media/russia.svg": "/static/media/russia.b41328698709cf180d8d19cd65d03050.svg",
     "main.a563437e.css.map": "/static/css/main.a563437e.css.map",
-    "main.ceaf8d9c.js.map": "/static/js/main.ceaf8d9c.js.map",
+    "main.02e7d82a.js.map": "/static/js/main.02e7d82a.js.map",
     "966.06984445.chunk.js.map": "/static/js/966.06984445.chunk.js.map",
     "845.1965c87f.chunk.js.map": "/static/js/845.1965c87f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a563437e.css",
-    "static/js/main.ceaf8d9c.js"
+    "static/js/main.02e7d82a.js"
   ]
 }

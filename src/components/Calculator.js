@@ -11,6 +11,7 @@ import { ReactComponent as ChinaFlag } from '../assets/china.svg';
 import { ReactComponent as SouthAfricaFlag } from '../assets/southafrica.svg';
 import { ReactComponent as UAEFlag } from '../assets/uae.svg';
 import { ReactComponent as USAFlag } from '../assets/usa.svg';
+import { ReactComponent as EuroFlag } from '../assets/euro.svg';
 import getExchangeRates from './ExchangeRates';
 
 const BRCExchangeCalculator = () => {
@@ -44,6 +45,8 @@ const BRCExchangeCalculator = () => {
     { code: 'BRL', name: 'Brazilian Real', image: BrazilFlag },
     { code: 'AED', name: 'UAE Dirham', image: UAEFlag },
     { code: 'USD', name: 'US Dollar', image: USAFlag },
+    { code: 'EUR', name: 'EURO', image: EuroFlag },
+    
   ];
 
   const calculateAllRates = () => {
