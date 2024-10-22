@@ -74,7 +74,7 @@ const BRCExchangeCalculator = () => {
 
   const convertCurrency = () => {
     const rate = exchangeRates[fromCurrency][toCurrency];
-    const convertedAmount = parseFloat(amount) * rate;
+    const convertedAmount = parseFloat(amount) * rate * 0.995;
     setResult(formatNumber(convertedAmount));
   };
 

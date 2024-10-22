@@ -7,7 +7,7 @@ import './Transparency.css';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const data = {
-    labels: ['Cash & Cash Equivalents & Other Short-Term Deposits'],
+    labels: ['Stablecoins, Cash & Short-Term Deposits'],
     datasets: [
     {
         label: 'Reserves Breakdown',
