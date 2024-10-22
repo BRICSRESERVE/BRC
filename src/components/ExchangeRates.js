@@ -4,7 +4,7 @@ const API_URL = 'https://currency-conversion-and-exchange-rates.p.rapidapi.com/l
 const API_KEY = '999313976amshdf6c7cf1e9461a3p14a34bjsna6bf982095bc'; // Replace with your RapidAPI key
 const API_HOST = 'currency-conversion-and-exchange-rates.p.rapidapi.com';
 
-const brcToAedRate = 14.9024865;
+const brcToAedRate = 15.1972;
 
 async function getExchangeRates() {
   

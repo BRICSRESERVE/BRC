@@ -95,7 +95,28 @@ const Transparency = () => {
         </div>
         <h3>Reserves</h3>
         <p>BRC provides monthly attestations and detailed reports on reserve compositions. This ensures that BRC tokens are always backed by an equivalent value of BRICS national currencies. The reserves are held in the custody of leading financial institutions, designed to provide token holders with ready liquidity and confidence in the 1:1 backing of their assets.</p>
-        <p><span className="report-date">August 2024</span> Report on the Consolidated Reserves: <a href="/reports/Consolidated-Reserves-August-2024.pdf" target="_blank" className="report-link">Consolidated-Reserves-August-2024.pdf</a></p>
+        <table>
+            <thead>
+                <tr>
+                <th>Month</th>
+                <th>Download Report</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>August 2024</td>
+                    <td><a href="/reports/Consolidated-Reserves-August-2024.pdf" target="_blank">Consolidated-Reserves-August-2024.pdf</a></td>
+                </tr>
+                <tr>
+                    <td>September 2024</td>
+                    <td><a href="/reports/Consolidated-Reserves-September-2024.pdf" target="_blank">Consolidated-Reserves-September-2024.pdf</a></td>
+                </tr>
+                <tr>
+                    <td>October 2024</td>
+                    <td><a href="/reports/Consolidated-Reserves-October-2024.pdf" target="_blank">Consolidated-Reserves-October-2024.pdf</a></td>
+                </tr>
+            </tbody>
+        </table>
         <h4>Reserve Composition</h4>
         <p>As of the last report the reserves break down is as follows:</p>
         <div className="pie-container">
